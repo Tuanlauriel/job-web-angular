@@ -11,9 +11,12 @@ import { RegisterComponent } from './pages/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { JobListComponent } from './pages/job-list/job-list.component';
 import { JobDetailComponent } from './pages/job-detail/job-detail.component';
-import { EmployeersLayoutComponent } from './layouts/employeers-layout/employeers-layout.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { JobseekerLayoutComponent } from './layouts/jobseeker-layout/jobseeker-layout.component';
+import { JobSeekerLayoutComponent } from './layouts/job-seeker-layout/job-seeker-layout.component';
+import { CompanyListComponent } from './pages/company-list/company-list.component';
+import { MyJobComponent } from './pages/my-job/my-job.component';
+import { ForEmployersLayoutComponent } from './layouts/for-employers-layout/for-employers-layout.component';
+import { ForEmployersJobsComponent } from './pages/for-employers-jobs/for-employers-jobs.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +29,12 @@ import { JobseekerLayoutComponent } from './layouts/jobseeker-layout/jobseeker-l
     HomeComponent,
     JobListComponent,
     JobDetailComponent,
-    EmployeersLayoutComponent,
     AdminLayoutComponent,
-    JobseekerLayoutComponent
+    JobSeekerLayoutComponent,
+    CompanyListComponent,
+    MyJobComponent,
+    ForEmployersLayoutComponent,
+    ForEmployersJobsComponent
   ],
   imports: [
     BrowserModule,
