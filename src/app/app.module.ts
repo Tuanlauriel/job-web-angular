@@ -34,7 +34,7 @@ import { ForEmployersJobsComponent } from './pages/for-employers-jobs/for-employ
     CompanyListComponent,
     MyJobComponent,
     ForEmployersLayoutComponent,
-    ForEmployersJobsComponent
+    ForEmployersJobsComponent,
   ],
   imports: [
     BrowserModule,
