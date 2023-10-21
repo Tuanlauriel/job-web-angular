@@ -1,12 +1,16 @@
 .nav-tab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     border-bottom: 1px solid;
     margin-bottom: 10px;
 
     li {
         border: none;
+    }
+
+    li:hover {
+        border: aqua;
     }
 
     .nav-tabs .nav-item.show .nav-link,
@@ -132,7 +136,7 @@
 .contain-fillbar {
     min-height: 50px;
     width: auto;
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     align-items: center;
 }
@@ -141,4 +145,21 @@
     max-width: 12em;
     font-size: 16px;
     margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.contain-main-content {
+    display: flex;
+
+    .banner {
+        width: 60%;
+        height: 100px;
+        background-color: aqua;
+        margin-left: 30px;
+
+        img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+    }
 }
