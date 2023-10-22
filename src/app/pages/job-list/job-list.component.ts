@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./job-list.component.scss']
 })
 export class JobListComponent {
-
+  isLinkDisabled: boolean = false;
 }

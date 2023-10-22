@@ -21,6 +21,7 @@ const routes: Routes = [
       { path: 'my-job', component: MyJobComponent },
       { path: 'login', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
+      { path: 'jobs-detail', component: JobDetailComponent }
     ]
   },
   {
