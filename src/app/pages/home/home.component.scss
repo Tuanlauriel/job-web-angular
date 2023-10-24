@@ -45,13 +45,10 @@
     }
 
     .card {
-<<<<<<< HEAD
 
       .job-link,
-      .company-link {
-=======
-      .job-link, .company-link, .job-location {
->>>>>>> d2f87c67b0032ab0fe66a65126801fba6c2b65f4
+      .company-link,
+      .job-location {
         line-height: 1.2rem;
         height: 1.2rem;
         display: -webkit-box;
