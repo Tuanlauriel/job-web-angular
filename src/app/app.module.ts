@@ -17,6 +17,7 @@ import { CompanyListComponent } from './pages/company-list/company-list.componen
 import { MyJobComponent } from './pages/my-job/my-job.component';
 import { ForEmployersLayoutComponent } from './layouts/for-employers-layout/for-employers-layout.component';
 import { ForEmployersJobsComponent } from './pages/for-employers-jobs/for-employers-jobs.component';
+import { CompanyInfoComponent } from './pages/company-info/company-info.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ForEmployersJobsComponent } from './pages/for-employers-jobs/for-employ
     MyJobComponent,
     ForEmployersLayoutComponent,
     ForEmployersJobsComponent,
+    CompanyInfoComponent,
   ],
   imports: [
     BrowserModule,

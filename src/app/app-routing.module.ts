@@ -10,6 +10,7 @@ import { ForEmployersLayoutComponent } from './layouts/for-employers-layout/for-
 import { ForEmployersJobsComponent } from './pages/for-employers-jobs/for-employers-jobs.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { CompanyInfoComponent } from './pages/company-info/company-info.component';
 
 const routes: Routes = [
   {
@@ -21,7 +22,8 @@ const routes: Routes = [
       { path: 'my-job', component: MyJobComponent },
       { path: 'login', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
-      { path: 'jobs-detail', component: JobDetailComponent }
+      { path: 'jobs-detail', component: JobDetailComponent },
+      { path: 'company-info', component: CompanyInfoComponent }
     ]
   },
   {
